@@ -1,24 +1,22 @@
 import logo from "./logo.svg";
 import "./App.css";
-//import Button from 'fomantic-ui';
-import { Button, Image, Grid, FormInput, Card, Modal } from "semantic-ui-react";
+//import { Button, Image, Grid, FormInput, Card, Modal } from "semantic-ui-react";
 //import { ReactComponent as Logo } from "./images/embark.svg";
-import embark from "./images/embark.svg";
-import ResultsCard from "./components/ResultsCard";
-import Process from "./components/Process";
+//import embark from "./images/embark.svg";
+//import ResultsCard from "./components/ResultsCard";
+//import Process from "./components/Process";
 import { Route, Switch } from "react-router-dom";
 import React from "react";
-import ResultsDetails from "./components/ResultsDetails";
-import AppRoutes from "./AppRoutes";
-import bernardresults from "./images/BernardResults.png";
-import supermutt from "./components/Supermutt";
-import Supermutt from "./components/Supermutt";
+//import ResultsDetails from "./components/ResultsDetails";
+//import AppRoutes from "./AppRoutes";
+//import bernardresults from "./images/BernardResults.png";
+//import supermutt from "./components/Supermutt";
 
 function App() {
   return (
     <div class="ui grid container">
       <div class="row">
-        <Grid columns={3}>
+        {/* <Grid columns={3}>
           <Grid.Row>
             <Grid.Column></Grid.Column>
             <Grid.Column stretched={true}>
@@ -26,11 +24,13 @@ function App() {
             </Grid.Column>
             <Grid.Column></Grid.Column>
           </Grid.Row>
-        </Grid>
+        </Grid> */}
+
+        test
       </div>
 
       <div class="row">
-        <Grid columns={3}>
+        {/* <Grid columns={3}>
           <Grid.Row>
             <Grid.Column width={2}></Grid.Column>
             <Grid.Column width={12}>
@@ -42,7 +42,7 @@ function App() {
                   <Grid.Row>
                     <Grid.Column>
                       <div className="left-card">
-                        {/* <h1>Genetic Results</h1> */}
+                        
                         <Image
                           src={bernardresults}
                           size="big"
@@ -71,7 +71,8 @@ function App() {
             </Grid.Column>
             <Grid.Column width={2}></Grid.Column>
           </Grid.Row>
-        </Grid>
+        </Grid> */}
+        test
       </div>
     </div>
   );
